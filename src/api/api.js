@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000/api"; // Your Django backend URL
+const API_URL = "https://labelbox-backend-1wx6.onrender.com/api"; // Your Django backend URL
 
 export const fetchProjects = async () => {
     const response = await axios.get(`${API_URL}/projects/`);
